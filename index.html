@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    
+  	<link rel="stylesheet" href="css/styles.css">
+
+  	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:300" rel="stylesheet">
+    
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<title>Map Project</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+  <body>
+  	<header>
+  		<h1>Bushwick zip codes lead the city in illegal rooster complaints</h1>
+  		<h2>By: Jaclyn Jeffrey-Wilensky</h2>
+
+  		<figure>
+  			<img src="images/rooster.jpeg" alt="A dashing rooster." width=750px>
+  			<figcaption>Photo by Leonardo Jarro, via <a href="https://www.pexels.com/photo/selective-focus-photography-of-rooster-s-head-633432/" target="_blank">Pexels</a></figcaption>
+  		</figure>
+
+  	</header>
+
+	<section>
+		<p>
+			New York City may be home to a menagerie of illegal pets, an analysis of 311 records reveals. 
+		</p>
+
+		<p>
+			<a href="https://data.cityofnewyork.us/Social-Services/illegal-animals-kept-as-pets/qhqf-m5aq" target="_blank"> NYC Open Data’s “illegal animals kept as pets” database</a> collects 311 Service Requests about, well, you guessed it, complete with information about each complaint’s origin, the type of illegal pet, and whether the complaint has been investigated or resolved. It shows that roosters earned 971 complaints between 2010 and 2017—almost twice as many as the next-most-common pet type, the intriguingly vague “other.” In fact, rooster complaints alone constitute nearly half of all complaints of this type.
+		</p>
+
+
+		<p class="chartWrapper">
+			<iframe id="datawrapper-chart-Jm3Ad" src="https://datawrapper.dwcdn.net/Jm3Ad/2/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" style="width: 0; min-width: 100% !important;" height="414"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Jm3Ad"]={},window.datawrapper["Jm3Ad"].embedDeltas={"100":879,"200":596,"300":498,"400":453,"500":414,"600":414,"700":383,"800":383,"900":383,"1000":369},window.datawrapper["Jm3Ad"].iframe=document.getElementById("datawrapper-chart-Jm3Ad"),window.datawrapper["Jm3Ad"].iframe.style.height=window.datawrapper["Jm3Ad"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Jm3Ad"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Jm3Ad"==b)window.datawrapper["Jm3Ad"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+		</p>
+
+		<p>
+			Truthfully, though, it’s not very surprising that roosters are the most-complained-about illegal pets. After all, they’re definitely louder and arguably more annoying than snakes or ferrets. But their frequency in the data—and the geographic richness of that data—presents a unique opportunity to look for patterns in the distribution of rooster complaints across New York City.
+		</p>
+
+		<p>
+			The NYC Open Data resource has incredibly specific data about the origin of each reported incident—right down to the longitude and latitude. But since many of these coordinates correspond to private homes, I’ve opted to aggregate the complaints by zip code instead.
+		</p>
+
+		<p class="mapWrapper">
+			<iframe width="100%" height="600" frameborder="0" src="https://jjwjournalism.carto.com/builder/6da1344b-5bad-4714-8b36-f53f2d9fc59e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		</p>
+		<p class="mapCaption">
+				Sources: NYC Open Data for <a href="https://data.cityofnewyork.us/Social-Services/illegal-animals-kept-as-pets/qhqf-m5aq" target="_blank">rooster complaints</a> and <a href="https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u/data" target="_blank">zip code boundaries.</a> Cleaned data used to create the map can be found <a href="https://drive.google.com/file/d/1Srx7ybEoFt2xNFPbPpc8u84iDtzgdBEP/view?usp=sharing" target="_blank">here</a>. Zip codes with no rooster complaints are marked in gray. Only confirmed complaints were included in this map.
+		</p>
+
+
+
+
+		<p>
+			The results are striking: a dozen or more roosters in a handful of zip codes, most notably in Staten Island, along the Brooklyn-Queens border, and in disparate parts of the Bronx. Manhattan, meanwhile, is a rooster desert: most of the mid- and lower Manhattan zip codes received not even one rooster complaint.
+		</p>
+
+		<p>
+			At the top of the list is 11221, a Bushwick zip code, which received 33 rooster complaints between 2010 and 2017. 11237, which straddles Bushwick and Ridgewood, received 23. 
+		</p>
+
+		<p class="chartWrapper">
+			<iframe id="datawrapper-chart-Otg8o" src="https://datawrapper.dwcdn.net/Otg8o/2/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" style="width: 0; min-width: 100% !important;" height="558"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["Otg8o"]={},window.datawrapper["Otg8o"].embedDeltas={"100":920,"200":687,"300":628,"400":572,"500":558,"600":558,"700":527,"800":527,"900":527,"1000":527},window.datawrapper["Otg8o"].iframe=document.getElementById("datawrapper-chart-Otg8o"),window.datawrapper["Otg8o"].iframe.style.height=window.datawrapper["Otg8o"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["Otg8o"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("Otg8o"==b)window.datawrapper["Otg8o"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+		</p>
+
+		<p>
+			So why are there so many (complaints of) roosters in Bushwick? Cockfighting might have something to do with it. A pet shop in the neighborhood has been the target of multiple <a href="https://www.dnainfo.com/new-york/20160603/bushwick/bushwick-man-convicted-2014-cockfighting-ring-arrested-again-da-says" target="_blank">cockfighting busts</a>, <a href="http://gothamist.com/2014/02/10/cockfighting_bust_ny.php#photo-1" target="_blank">one of which</a> Attorney General Eric Schneiderman called “the largest cockfighting takedown in New York State history.”
+		</p>
+
+		<p>
+			And it’s not just Bushwick. Seventy roosters were rescued in a <a href="http://www.nydailynews.com/new-york/bronx/cockfighting-ring-raided-bronx-article-1.2758930" target="_blank">cockfighting bust</a> in Fordham, a Bronx neighborhood corresponding to zip code 10458. And <a href="http://www.nydailynews.com/new-york/nyc-crime/nyc-teacher-busted-running-cockfighting-farm-article-1.2960955" target="_blank">a Bronx teacher was caught with dozens of cockfighting birds in his backyard</a> early this year, although his exact address is not listed.
+		</p>
+
+		<p>
+			Of course, rooster complaints do not a rooster infestation make, notes Julien A. Martinez, assistant press secretary at the New York City Department of Health and Mental Hygiene.
+		</p>
+
+		<p>
+			“A large concentration of rooster complaints can be a response to one rooster that is causing noise,” he said. “Or it can very well be a chicken that has been mistaken for a rooster.”
+		</p>		
+		
+	</section>
+		
+	<section class="last">
+		<p>
+			And, since you’re dying to know, Martinez added that chickens are legal to keep as pets in New York City.
+		</p>
+	</section>		
+
+  </body>
+</html>

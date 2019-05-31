@@ -1,0 +1,150 @@
+/* General styles */
+p{
+    /* Sets a max-width for all paragraphs */
+    max-width:650px;
+
+    /* Uses the margin trick to center */
+    margin:10px auto;
+
+    /*Sets a line height for the paragraphs*/
+    line-height: 1.4;
+  }
+
+ img{
+
+ 	/* Automatically resizes the images to fit the window width */
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
+
+ /* Link styles */
+a{
+	color: #ad466c;
+}
+
+a:hover{
+ 	background: #e6e6e6;
+ }
+
+ 
+/* Body styles */
+ body{
+
+ 	/* Sets the font family for the body*/
+	font-family: 'Roboto', sans-serif;
+ }
+
+/* Header styles */
+header{
+
+	/* Centers the header text */
+	text-align: center;
+
+	/* Sets the font family for the body*/
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header h1{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 760px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+ 
+	/* Left-aligns the text */
+	text-align: left;
+}
+
+header h2{
+
+	/* Limits the width of the headline so that it's more readable */
+	max-width: 750px;
+
+	/*Sets a smaller font size for h2s in the header section */
+	font-size: 18px;
+
+	/* Uses the margin trick to center */
+	margin: 10px auto;
+
+	/* Left-aligns the text */
+	text-align: left;
+}
+
+ /* Styles for figures and captions */
+figure{
+
+ 	/* This display allows the figcaption to align with the image */
+ 	display:inline-block;
+
+	/* Uses the margin trick to center */
+ 	margin: 0px auto 10px;
+ }
+
+ figcaption{
+
+ 	/* Sets the font size for the caption text */
+	font-size: 12px;
+	
+	/* Right-aligns the caption text */
+	text-align: right;
+
+	/* A margin-left of 20px helps the caption appear centered with the image even though it's technically a little shorter */
+	margin-left: 20px;
+ }
+
+
+/* Chart styles */
+p.chartWrapper {
+
+	/* Adds space above and below the chart */
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	/* Overrides the Max Width setting for paragraphs */
+	max-width: 700px;
+
+	padding: 20px;
+	border-width: 2px;
+	border-color: #ad466c;
+	border-style: solid
+}
+
+/* Map and map caption styles */
+p.mapWrapper {
+	/* Adds space above the map */
+	margin-top: 20px;
+	margin-bottom: 0px;
+
+	/* Centers the map */
+	text-align: center;
+
+	/* Overrides the Max Width setting for paragraphs */
+	max-width: 800px;
+
+}
+
+p.mapCaption{
+	/* Sets the font size for the caption text */
+	font-size: 12px;
+
+    /* Overrides the Max Width setting for paragraphs */
+	max-width: 750px;
+
+	/* Sets special margins for the caption */
+	margin-top: 0px;
+	margin-bottom: 20px;
+
+	/* Right-aligns the caption */
+	text-align: center;
+}
+
+/* Styles for the final section */
+section.last{
+
+	/*  Adds some breathing room after the last paragraph */
+	margin-bottom: 25px;
+}
+
